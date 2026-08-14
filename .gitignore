@@ -1,0 +1,20 @@
+# Build directories and generated files
+/build/
+/btop-osd_autogen/
+/.qt/
+/.cache/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Backup / archive files
+main.cpp.1
+main.cpp.2
+*.tar.gz
+
+# Editor swap files
+.*.kate-swp
+*.swp
+
+# Vendored reference material (not part of the build)
+/reference/
